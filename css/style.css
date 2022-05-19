@@ -1,0 +1,42 @@
+
+:root {
+    --first-color: #b91450;
+}
+
+body {
+    background-color: var(--first-color);
+}
+
+.box {
+    background-color: white;
+    border-radius: 20px;
+}
+
+label {
+    color: var(--first-color);
+}
+
+input {
+    border-radius: 10px;
+    border-color: var(--first-color);
+    text-align: center;
+}
+
+button {
+    border-radius: 5px;
+    color: var(--first-color);
+    border-color: var(--first-color);
+    padding: .5rem;
+}
+
+
+.ticket_box {
+    background-color: white;
+    padding: 1rem;
+}
+
+.ticket_user {
+    background-color: #808080;
+    padding: 1rem;
+    height: 100%;
+}
