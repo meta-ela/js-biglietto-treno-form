@@ -25,19 +25,19 @@
                         <div class="col-4">
                             <div class="d-flex flex-column py-5 px-5 text-center">
                                 <label class="mb-3" for="">Nome Cognome</label>
-                                <input type="text" name="nome-utente">
+                                <input type="text" class="nome-utente">
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="d-flex flex-column py-5 px-5 text-center">
                                 <label class="mb-3" for="">Km da percorrere</label>
-                                <input type="text" name="km-utente">
+                                <input type="text" class="km-utente">
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="d-flex flex-column py-5 px-5 text-center">
                                 <label class="mb-3" for="">Fascia d'età</label>
-                                <input name="eta-utente" type="text">
+                                <input class="eta-utente" type="text">
                             </div>
                         </div>
                         <div class="col-12">
@@ -49,7 +49,7 @@
                     </div>
                 </form>
 
-                <div>
+                <div id="display-ticket" class="d-none">
                     <div class="text-center text-white my-2">
                         <h2 class="mt-4">IL TUO BIGLIETTO</h2>
                     </div>
@@ -61,7 +61,7 @@
                             <div class="col-4">
                                 <div class="ticket_user">
                                     <h5>NOME PASSEGGERO</h5>
-                                    <div class="fw-bold">blabla</div>
+                                    <div class="fw-bold nome-completo-utente"></div>
                                 </div>
                             </div>
                             <div class="col-8">
